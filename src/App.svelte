@@ -12,7 +12,6 @@
   let cursor = 0;
   let count = 20;	
 
-
   function generateBytes({ serverSeed, clientSeed, nonce, cursor, count }) {
     // Setup cursor variables
     let currentRound = Math.floor(cursor / 32);
